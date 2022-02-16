@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Dan.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="trong"></div>
+    <div class="container">
+      <img src="img/img1.png" class="anh" width=100%>
+      <h1>Chu The Dan</h1>
+      <p class="tt">Học sinh lớp 12A2</p>
+      <a href="#1" class="top">1</a>
+      <a href="#1" class="top">2</a>
+      <a href="#1" class="top">3</a>
+      <a href="#1" class="top">A</a>
+      <p></p><button onclick="location.href='https://www.facebook.com/dan.ct.963';" class="btn"><i class="fa fa-facebook"></i>   Contact Me</button></p>
+    </div>
+    <div class="trong"></div>
+    <div>
+      <div id="1" class="cl">Thành tích học tập</div> 
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h2>Column 3</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+          <h2>Column 4</h2>
+          <p>Some text..</p>
+        </div>
+      </div>
+      <div id="2" class="cl">Sở thích</div>
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h2>Column 3</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+          <h2>Column 4</h2>
+          <p>Some text..</p>
+        </div>
+      </div>
+      <div id="3" class="cl">Kinh nghiệm</div>
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+          <h2>Column 3</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+          <h2>Column 4</h2>
+          <p>Some text..</p>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+</body>
+</html>
